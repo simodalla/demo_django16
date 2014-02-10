@@ -1,6 +1,7 @@
 from django.test import TestCase
 
-# Create your tests here.
+from django.conf import settings
+print(settings.TEST_RUNNER)
 
 class AAATest(TestCase):
     def test_1(self):
